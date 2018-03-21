@@ -5,8 +5,7 @@ import logging
 
 
 def main():
-    """
-    Main method. This will parse all of the arguments and return the results
+    """Main method. This will parse all of the arguments and return the results
     of the deck comparison to the std_out
     """
     parser = argparse.ArgumentParser(description='A simple deck comparison tool. Default will show added, removed, and modified cards')
@@ -124,19 +123,20 @@ def main():
     ## Print an extra newline for cleanliness
     print("\n")
 
-"""
-Loads the deckfile text into a dictionary. The deck file can be an unsorted list.
-Card names must be unique per line and start with an integer count of how many copies
-there are in the deck (an 'x' may be included as well). Extra blank lines are ignored.
 
-Acceptable lines:
-    1 Sol Ring
-
-    1x Sol Ring
-
-
-"""
 def loadDeck(deckFile):
+    """Loads the deckfile text into a dictionary. The deck file can be an unsorted list with
+    a sideboard separated by a newline and/or a line that says "Sideboard:".
+    Tested deck.txt files from TappedOut and MTGGoldfish
+    Card names must be unique per line and start with an integer count of how many copies
+    there are in the deck (an 'x' may be included as well).
+
+    Acceptable lines:
+        1 Sol Ring
+
+        1x Sol Ring
+
+    """
     logging.debug("Parsing deck file")
     deck_file_pattern = "(\d+)x? (.+)"
     regex = re.compile(deck_file_pattern)
@@ -169,15 +169,22 @@ def loadDeck(deckFile):
     return deck, sideboard
 
 def forumWrap(cardName):
+    """Wraps a cardname in [[ ]] for compatable forums/websites
+    """
     return "[[" + cardName +"]]"
 
 def formatCard(cardName, forForum):
+    """Returns either a plain cardname or a wrapped one based on the forForum flag
+    """
     if (forForum):
         return forumWrap(cardName)
     else:
         return cardName
 
 def dict_compare(d1, d2):
+    """Compares two dictionaries. Returns a tuple with the added, removed, modifed,
+    and same results
+    """
     d1_keys = set(d1.keys())
     d2_keys = set(d2.keys())
     intersect_keys = d1_keys.intersection(d2_keys)
