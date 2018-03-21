@@ -56,8 +56,8 @@ def main():
         show_list[3] = args.same
 
     # Load the deckfiles into their respective dictionaries
-    left_deck = loadDeck(args.oldDeck)
-    right_deck = loadDeck(args.newDeck)
+    left_deck = load_deck(args.oldDeck)
+    right_deck = load_deck(args.newDeck)
 
     # Retrieve the results of the comparison
     deck_results = dict_compare(right_deck[0], left_deck[0])
@@ -125,7 +125,7 @@ def main():
     print("\n")
 
 
-def loadDeck(deck_file):
+def load_deck(deck_file):
     """Loads the deckfile text into a dictionary. The deck file can be an unsorted list with
     a sideboard separated by a newline and/or a line that says "Sideboard:".
     Tested deck.txt files from TappedOut and MTGGoldfish
