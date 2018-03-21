@@ -47,14 +47,14 @@ Sideboard:
 
 Modified:
 Deck:
-[[Fetid Pools]]: was 4 now 3
-[[Glint-Sleeve Siphoner]]: was 4 now 2
-[[Liliana, Death's Majesty]]: was 2 now 1
-[[Swamp]]: was 6 now 3
-[[Walking Ballista]]: was 2 now 4
+[[Fetid Pools]]: was 3 now 4
+[[Glint-Sleeve Siphoner]]: was 2 now 4
+[[Liliana, Death's Majesty]]: was 1 now 2
+[[Swamp]]: was 3 now 6
+[[Walking Ballista]]: was 4 now 2
 
 Sideboard:
-[[Negate]]: was 2 now 3
+[[Negate]]: was 3 now 2
 
 Same:
 Deck:
