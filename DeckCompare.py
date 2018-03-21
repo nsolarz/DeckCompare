@@ -45,6 +45,7 @@ def main():
 
     # Determine which card lists to show. If nothing is flagged, show Added,
     # Removed, and Modified
+    
     show_list = [False, False, False, False]
 
     if not args.added and not args.removed and not args.modified and not args.same:
