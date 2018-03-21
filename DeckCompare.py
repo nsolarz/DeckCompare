@@ -45,7 +45,7 @@ def main():
 
     # Determine which card lists to show. If nothing is flagged, show Added,
     # Removed, and Modified
-    
+
     show_list = [False, False, False, False]
 
     if not args.added and not args.removed and not args.modified and not args.same:
@@ -100,14 +100,14 @@ def main():
             print("Deck:")
             for card in sorted((deck_results[2])):
                 print(format_card(card, args.forumReady) + ": was "
-                      + deck_results[2][card][0]
-                      + " now " + deck_results[2][card][1])
+                      + deck_results[2][card][1]
+                      + " now " + deck_results[2][card][0])
         if len(sideboard_results[2]) > 0:
             print("\nSideboard:")
             for card in sorted((sideboard_results[2])):
                 print(format_card(card, args.forumReady) + ": was "
-                      + sideboard_results[2][card][0]
-                      + " now " + sideboard_results[2][card][1])
+                      + sideboard_results[2][card][1]
+                      + " now " + sideboard_results[2][card][0])
 
     # Show Same cards
     if show_list[3]:
