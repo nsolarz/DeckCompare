@@ -1,0 +1,34 @@
+4 Aether Hub
+4 Angel of Invention
+4 Champion of Wits
+4 Concealed Courtyard
+2 Contraband Kingpin
+4 Drowned Catacomb
+3 Fetid Pools
+3 Gate to the Afterlife
+1 Glacial Fortress
+2 Glint-Sleeve Siphoner
+3 God-Pharaoh's Gift
+2 Gonti, Lord of Luxury
+2 Hostage Taker
+1 Ipnu Rivulet
+4 Island
+2 Kitesail Freebooter
+1 Liliana, Death's Majesty
+4 Minister of Inquiries
+1 Ravenous Chupacabra
+1 Search for Azcanta
+3 Swamp
+1 Trophy Mage
+4 Walking Ballista
+
+Sideboard:
+2 Dreamstealer
+2 Duress
+3 Fatal Push
+1 Hour of Glory
+3 Negate
+2 Settle the Wreckage
+1 Solemnity
+1 Vraska's Contempt
+

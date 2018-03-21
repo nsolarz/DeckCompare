@@ -1,0 +1,70 @@
+Added:
+Deck:
+1 [[Canyon Slough]]
+2 [[Commit]]
+3 [[Dusk Legion Zealot]]
+1 [[Essence Scatter]]
+4 [[Fatal Push]]
+3 [[Field of Ruin]]
+1 [[Supreme Will]]
+3 [[The Scarab God]]
+2 [[Torrential Gearhulk]]
+4 [[Vraska's Contempt]]
+
+Sideboard:
+2 [[Aethersphere Harvester]]
+2 [[Arguel's Blood Fast]]
+1 [[Doomfall]]
+1 [[Glimmer of Genius]]
+1 [[Golden Demise]]
+1 [[Jace's Defeat]]
+2 [[Moment of Craving]]
+1 [[River's Rebuke]]
+
+Removed:
+Deck:
+4 [[Angel of Invention]]
+4 [[Concealed Courtyard]]
+2 [[Contraband Kingpin]]
+3 [[Gate to the Afterlife]]
+1 [[Glacial Fortress]]
+3 [[God-Pharaoh's Gift]]
+2 [[Hostage Taker]]
+1 [[Ipnu Rivulet]]
+2 [[Kitesail Freebooter]]
+4 [[Minister of Inquiries]]
+1 [[Ravenous Chupacabra]]
+1 [[Search for Azcanta]]
+1 [[Trophy Mage]]
+
+Sideboard:
+2 [[Dreamstealer]]
+3 [[Fatal Push]]
+1 [[Hour of Glory]]
+2 [[Settle the Wreckage]]
+1 [[Solemnity]]
+1 [[Vraska's Contempt]]
+
+Modified:
+Deck:
+[[Fetid Pools]]: was 4 now 3
+[[Glint-Sleeve Siphoner]]: was 4 now 2
+[[Liliana, Death's Majesty]]: was 2 now 1
+[[Swamp]]: was 6 now 3
+[[Walking Ballista]]: was 2 now 4
+
+Sideboard:
+[[Negate]]: was 2 now 3
+
+Same:
+Deck:
+4 [[Aether Hub]]
+4 [[Champion of Wits]]
+4 [[Drowned Catacomb]]
+2 [[Gonti, Lord of Luxury]]
+4 [[Island]]
+
+Sideboard:
+2 [[Duress]]
+
+
